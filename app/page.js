@@ -1,5 +1,4 @@
-// app/page.js
-// This file maps to the index route (/)
+import "../styles/globals.css";
 export default function Page() {
   return <h1>Hello, Next.js!</h1>;
 }

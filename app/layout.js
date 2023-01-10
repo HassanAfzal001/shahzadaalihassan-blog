@@ -1,4 +1,10 @@
-// app/blog/layout.js
-export default function RootLayout({ children }) {
-  return <section>{children}</section>;
+export default function Layout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>{children}</body>
+    </html>
+  );
 }
