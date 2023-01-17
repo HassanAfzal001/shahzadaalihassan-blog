@@ -1,3 +1,4 @@
+import drawer from './drawer';
 export default function Layout({ children }) {
   return (
     <html lang="en">
@@ -5,7 +6,8 @@ export default function Layout({ children }) {
         <title>Next
         </title>
       </head>
-      <body>{children}</body>
+      <body>
+        <drawer/>{children}</body>
     </html>
   );
 }

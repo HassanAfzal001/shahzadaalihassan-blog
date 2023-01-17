@@ -1,8 +1,12 @@
 import "../styles/globals.css";
+import MyDrawer from "./drawer";
+
 export default function Page() {
   return ((
   <>
-  <h1>Asslamo Alikum! We are starting courses soon!</h1>
+  <MyDrawer/>
+  {/* <h1>Asslamo Alikum! We are starting courses soon!</h1> */}
+    
   </>
   ));
 }
